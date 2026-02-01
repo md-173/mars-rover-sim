@@ -4,7 +4,7 @@ AUTHOR: Michael Durkan
 
 ## Description
 
-Simulates the actions of drones and rovers on mars when provided my commands through satellite link to earth.
+Simulates the actions of drones and rovers on mars when sent commands through satellite link from earth.
 
 The rovers and drones are provided with commands from the command generator. The positions and data being recorded is changed based on these commands every simluation tick. The results of these changes can be seen within the diagnostics.txt logging file.
 
