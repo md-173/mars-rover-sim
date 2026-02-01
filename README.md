@@ -4,9 +4,11 @@ AUTHOR: Michael Durkan
 
 ## Description
 
-Simulates the actions of drones and rovers on mars when sent commands through satellite link from earth.
+Simulates the actions and movements of drones and rovers on mars.
 
 The rovers and drones are provided with commands from the command generator. The positions and data being recorded is changed based on these commands every simluation tick. The results of these changes can be seen within the diagnostics.txt logging file.
+
+The systems handles errors/corruption in the commands and uses design patterns to improve the maintainability, seperation of concerns and extensbility of the system.
 
 Java code can be read within \src\main\java\edu\curtin\mars
 
