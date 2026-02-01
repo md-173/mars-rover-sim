@@ -6,7 +6,9 @@ AUTHOR: Michael Durkan
 
 Simulates the actions of drones and rovers on mars when provided my commadns through satellite link to earth.
 
-The rovers and drones are provided with commands from the command generator. The positions and data being recorded is changed based on these commands every simluation tick. The results of these changes can be seen within the logging file.
+The rovers and drones are provided with commands from the command generator. The positions and data being recorded is changed based on these commands every simluation tick. The results of these changes can be seen within the 'diagnostics' logging file.
+
+Java code can be read within \src\main\java\edu\curtin\mars
 
 ## Dependancies
 
@@ -32,3 +34,4 @@ bash gradlew run
 
 ## Output Information
 
+Each 'SOL' (Mars Day) is printed in diagnostics.txt along with the current state and position of each drone/rover.
